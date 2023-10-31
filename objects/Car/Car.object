@@ -1,0 +1,86 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Car",
+  "identifier": "master3_d_object_model:558064-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+  "sourceIdentifier": "asset_collection_model:558068-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 6.150345802307129,
+  "globalScaleFactor": 0.7818739922614253,
+  "height": 2.1744019985198975,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 2.5579569339752197,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Car",
+      "identifier": "mesh:558052-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "Car",
+      "numberOfFaces": 438,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:558058-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:558054-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:558061-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:558046-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+              "surfaceGroupIdentifier": "558062-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79"
+            }
+          ]
+        },
+        {
+          "modelName": "blend_shapes_model",
+          "identifier": "blend_shapes_model:558056-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79"
+        }
+      ]
+    }
+  ]
+}

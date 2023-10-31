@@ -1,0 +1,86 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Car2",
+  "identifier": "master3_d_object_model:560553-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+  "sourceIdentifier": "asset_collection_model:560557-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 6.533010959625244,
+  "globalScaleFactor": 0.6900356385636816,
+  "height": 2.198651075363159,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 2.8984010219573975,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Car2",
+      "identifier": "mesh:560541-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "Car2",
+      "numberOfFaces": 312,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:560547-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:560543-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:560550-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:560535-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79",
+              "surfaceGroupIdentifier": "560551-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79"
+            }
+          ]
+        },
+        {
+          "modelName": "blend_shapes_model",
+          "identifier": "blend_shapes_model:560545-cec88f61-b1fe-45cb-a339-fd9b3c6d3a79"
+        }
+      ]
+    }
+  ]
+}
